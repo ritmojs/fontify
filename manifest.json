@@ -1,0 +1,25 @@
+{
+	"manifest_version" : 2,
+	"name" : "Fontify",
+    "version" : "0.001",
+    "icons": {"126": "logo.png"},
+	"content_scripts" : [
+		{
+			"matches" : [
+				"<all_urls>"
+                 ],
+                  "js" : ["content.js"]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+      ],
+      "optional_permissions": [
+        "topSites",
+        "http://www.developer.chrome.com/*"
+      ],
+    "browser_action" : {
+    }
+}
