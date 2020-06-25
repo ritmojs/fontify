@@ -48,7 +48,7 @@
 <img src="./logo.png" width="200" height ="200">
 </p>
 
-<p align="center">
+<h1 align="center">
+   © fontify 2020
+</h1>
 
-## © fotify 2020
-</p>
